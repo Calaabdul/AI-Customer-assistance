@@ -19,3 +19,9 @@ def chat(data: Question):
     return {
         "answer": answer
     }
+
+
+
+# def sum(a, b):
+#     return a // b
+
