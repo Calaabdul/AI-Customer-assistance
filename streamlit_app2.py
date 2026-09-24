@@ -9,7 +9,7 @@ question = st.text_input("Ask a question")
 if st.button("Ask"):
 
     response = requests.post(
-        "http://127.0.0.1:8000/chat",
+        "https://ai-customer-assistance-3.onrender.com/chat",
         json={"question": question},
     )
 
